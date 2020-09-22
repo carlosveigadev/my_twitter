@@ -1,6 +1,21 @@
-<h1>Editing My Tweet</h1>
+<div class="section">
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-half">
+				<h1 class="title">Editing Tweeet</h1>
+				<%= render 'form', tweeet: @my_tweets %>
+			</div>
+		</div>
+	</div>
+</div>
 
-<%= render 'form', my_tweet: @my_tweet %>
-
-<%= link_to 'Show', @my_tweet %> |
-<%= link_to 'Back', my_tweets_path %>
+<nav class="navbar is-fixed-bottom">
+	<div class="navbar-menu">
+		<div class="navbar-item">
+			<div class="field is-grouped">
+				<p class="control">
+					<%= link_to 'Cancel', my_tweets_path, class: "button is-dark" %>
+				</p>
+		</div>
+	</div>
+</nav>
