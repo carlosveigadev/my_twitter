@@ -29,7 +29,7 @@ class MyTweetsController < ApplicationController
 
     respond_to do |format|
       if @my_tweet.save
-        format.html { redirect_to @my_tweet, notice: 'My tweet was successfully created.' }
+        format.html { redirect_to root_path, notice: 'My tweet was successfully created.' }
         format.json { render :show, status: :created, location: @my_tweet }
       else
         format.html { render :new }
