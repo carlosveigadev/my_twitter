@@ -1,27 +1,8 @@
-<p id="notice"><%= notice %></p>
+<section class='section'>
+  <div class='container'>
+    <div class="columns">
+      <%= render 'feed' %>
+    </div>
+  </div>
+</section>
 
-<h1>My Tweets</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Mytweet</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @my_tweets.each do |my_tweet| %>
-      <tr>
-        <td><%= my_tweet.mytweet %></td>
-        <td><%= link_to 'Show', my_tweet %></td>
-        <td><%= link_to 'Edit', edit_my_tweet_path(my_tweet) %></td>
-        <td><%= link_to 'Destroy', my_tweet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New My Tweet', new_my_tweet_path %>
