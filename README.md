@@ -1,24 +1,34 @@
-# README
+## My Twitter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project I follow along to Andy Leverenz’s brilliant Building a Twitter Clone screen casts. I was built a light weight version of Twitter to practice experience in using Devise.
 
-Things you may want to cover:
 
-* Ruby version
+## Build With
 
-* System dependencies
+- Ruby On Rails
 
-* Configuration
+## Author
 
-* Database creation
+👤 **Carlos Veiga**
 
-* Database initialization
+- Github: [@wrakc](https://github.com/wrakc)
+- Twitter: [@carlosveig](https://twitter.com/carlosveig)
+- Linkedin: [chveiga](https://linkedin.com/chveiga)
 
-* How to run the test suite
+## 🤝 Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributions, issues and feature requests are welcome!
 
-* Deployment instructions
+Feel free to check the [issues page](issues/).
 
-* ...
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks Microverse and The Minskins team.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](LICENSE.txt).
