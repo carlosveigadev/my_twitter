@@ -5,6 +5,7 @@ class MyTweetsController < ApplicationController
   # GET /my_tweets.json
   def index
     @my_tweets = MyTweet.all.order('created_at DESC')
+    @my_tweet = MyTweet.new
   end
 
   # GET /my_tweets/1
