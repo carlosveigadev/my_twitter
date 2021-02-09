@@ -11,9 +11,9 @@ In this project I follow along to Andy Leverenz’s brilliant Building a Twitter
 
 👤 **Carlos Veiga**
 
-- Github: [@wrakc](https://github.com/wrakc)
-- Twitter: [@carlosveig](https://twitter.com/carlosveig)
-- Linkedin: [chveiga](https://linkedin.com/chveiga)
+- Github: [@carlosveigadev](https://github.com/carlosveigadev)
+- Twitter: [@carlosveigadev](https://twitter.com/carlosveigadev)
+- Linkedin: [carlosveigadev](https://linkedin.com/carlosveigadev)
 
 ## 🤝 Contributing
 
